@@ -1,8 +1,7 @@
 'use strict';
 
-// write your code here
-const population = document.querySelectorAll('.population');
-const arrayOfPopulation = Array.from(population).map((el) =>
+const populationOf = document.querySelectorAll('.population');
+const arrayOfPopulation = Array.from(populationOf).map((el) =>
   Number(el.textContent.replaceAll(',', '')),
 );
 const total = arrayOfPopulation.reduce((sum, curr) => sum + curr, 0);
