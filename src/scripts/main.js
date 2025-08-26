@@ -3,7 +3,8 @@
 // write your code here
 const population = document.querySelectorAll('.population');
 const arrayOfPopulation = Array.from(population).map((el) =>
-  Number(el.textContent.replaceAll(',', '')),);
+  Number(el.textContent.replaceAll(',', '')),
+);
 const total = arrayOfPopulation.reduce((sum, curr) => sum + curr, 0);
 const avg = total / arrayOfPopulation.length;
 
