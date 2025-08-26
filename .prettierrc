@@ -3,7 +3,7 @@
   "useTabs": false,
   "semi": true,
   "singleQuote": true,
-  "trailingComma": "none",
+  "trailingComma": "all",
   "printWidth": 80,
   "overrides": [
     {
@@ -11,7 +11,7 @@
       "options": {
         "parser": "html",
         "insertPragma": false,
-        "endOfLine": "auto",
+        "endOfLine": "none",
         "singleAttributePerLine": true,
         "htmlWhitespaceSensitivity": "ignore"
       }
